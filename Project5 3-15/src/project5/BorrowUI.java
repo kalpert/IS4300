@@ -37,11 +37,9 @@ public class BorrowUI extends javax.swing.JFrame {
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
-        jPanel1 = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
+        jButton10 = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
         jTextField1 = new javax.swing.JTextField();
@@ -73,7 +71,7 @@ public class BorrowUI extends javax.swing.JFrame {
         jButton8 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
         Item7 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         SocialPanel = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         jPanel15 = new javax.swing.JPanel();
@@ -98,7 +96,7 @@ public class BorrowUI extends javax.swing.JFrame {
         Header.setLayout(HeaderLayout);
         HeaderLayout.setHorizontalGroup(
             HeaderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 770, Short.MAX_VALUE)
+            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 739, Short.MAX_VALUE)
         );
         HeaderLayout.setVerticalGroup(
             HeaderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -135,45 +133,12 @@ public class BorrowUI extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setText("Joe Smith");
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/001-avatar-inside-a-circle.png"))); // NOI18N
+        jButton2.setText("Jane Smith");
 
-        jLabel5.setText("My Profile");
+        jButton10.setText("Settings");
 
-        jLabel6.setText("Settings");
-
-        jLabel7.setText("Help");
-
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 138, Short.MAX_VALUE)
-                        .addContainerGap())
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel6)
-                            .addComponent(jLabel5)
-                            .addComponent(jLabel7))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel4)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel5)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel6)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel7)
-                .addContainerGap(12, Short.MAX_VALUE))
-        );
+        jButton11.setText("Help");
 
         javax.swing.GroupLayout NavigationLayout = new javax.swing.GroupLayout(Navigation);
         Navigation.setLayout(NavigationLayout);
@@ -181,25 +146,32 @@ public class BorrowUI extends javax.swing.JFrame {
             NavigationLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jButton7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(NavigationLayout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addContainerGap()
+                .addComponent(jButton2)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jButton9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jButton10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jButton11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         NavigationLayout.setVerticalGroup(
             NavigationLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(NavigationLayout.createSequentialGroup()
-                .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jButton7)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jButton5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jButton6)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 96, Short.MAX_VALUE)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(19, 19, 19))
+                .addComponent(jButton9)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 185, Short.MAX_VALUE)
+                .addComponent(jButton2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jButton10)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jButton11)
+                .addGap(56, 56, 56))
         );
 
         getContentPane().add(Navigation, java.awt.BorderLayout.WEST);
@@ -248,11 +220,15 @@ public class BorrowUI extends javax.swing.JFrame {
         jLabel2.setText("Today's Features");
 
         Item1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Item1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/008-sunglasses.png"))); // NOI18N
         Item1.setPreferredSize(new java.awt.Dimension(24, 24));
 
         Item2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Item2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/007-winter-hat.png"))); // NOI18N
+        Item2.setPreferredSize(new Dimension(600,600));
 
         Item3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Item3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/011-clothing.png"))); // NOI18N
 
         javax.swing.GroupLayout FeaturedPanelLayout = new javax.swing.GroupLayout(FeaturedPanel);
         FeaturedPanel.setLayout(FeaturedPanelLayout);
@@ -284,10 +260,13 @@ public class BorrowUI extends javax.swing.JFrame {
         jLabel3.setText("Popular Items");
 
         Item4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Item4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/010-high-heel.png"))); // NOI18N
 
         Item5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Item5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/012-coat.png"))); // NOI18N
 
         Item6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Item6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/014-shoe.png"))); // NOI18N
 
         javax.swing.GroupLayout FeaturedPanel1Layout = new javax.swing.GroupLayout(FeaturedPanel1);
         FeaturedPanel1.setLayout(FeaturedPanel1Layout);
@@ -321,6 +300,7 @@ public class BorrowUI extends javax.swing.JFrame {
         CurrentBorrowedPanel.add(jLabel8);
 
         Item8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Item8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/006-coffee-maker.png"))); // NOI18N
 
         jLabel11.setText("Due 3/20/17");
 
@@ -358,8 +338,9 @@ public class BorrowUI extends javax.swing.JFrame {
         CurrentBorrowedPanel.add(jPanel8);
 
         Item9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Item9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/015-tie.png"))); // NOI18N
 
-        jLabel12.setText("Due 3/20/17");
+        jLabel12.setText("Due 3/24/17");
 
         jButton4.setText("Return");
         jButton4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -395,8 +376,9 @@ public class BorrowUI extends javax.swing.JFrame {
         CurrentBorrowedPanel.add(jPanel9);
 
         Item10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Item10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/013-shirt.png"))); // NOI18N
 
-        jLabel13.setText("Due 3/20/17");
+        jLabel13.setText("Due 4/1/17");
 
         jButton8.setText("Return");
         jButton8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -414,7 +396,7 @@ public class BorrowUI extends javax.swing.JFrame {
                 .addComponent(Item10, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel13)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 82, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 90, Short.MAX_VALUE)
                 .addComponent(jButton8))
         );
         jPanel10Layout.setVerticalGroup(
@@ -433,10 +415,10 @@ public class BorrowUI extends javax.swing.JFrame {
 
         Item7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
-        jLabel14.setFont(new java.awt.Font("Malayalam MN", 3, 13)); // NOI18N
-        jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel14.setText("More");
-        jLabel14.addMouseListener(new java.awt.event.MouseAdapter() {
+        jLabel4.setFont(new java.awt.Font("Malayalam MN", 3, 13)); // NOI18N
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel4.setText("More");
+        jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel4MouseClicked(evt);
             }
@@ -450,7 +432,7 @@ public class BorrowUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(Item7, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 168, Short.MAX_VALUE)
-                .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
         jPanel7Layout.setVerticalGroup(
@@ -458,7 +440,7 @@ public class BorrowUI extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel14)
+                    .addComponent(jLabel4)
                     .addComponent(Item7))
                 .addGap(19, 19, 19))
         );
@@ -504,6 +486,7 @@ public class BorrowUI extends javax.swing.JFrame {
         SocialPanel.add(jPanel15);
 
         Item16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Item16.setIcon(new javax.swing.ImageIcon("/Users/rachelrudolph/Downloads/my-icons-collection (3)/png/004-instagram.png")); // NOI18N
 
         jLabel20.setText("Follow us on Instagram!");
 
@@ -531,6 +514,7 @@ public class BorrowUI extends javax.swing.JFrame {
         SocialPanel.add(jPanel16);
 
         Item17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Item17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/003-twitter.png"))); // NOI18N
 
         jLabel21.setText("Join us on Twitter!");
 
@@ -688,6 +672,9 @@ public class BorrowUI extends javax.swing.JFrame {
     private javax.swing.JPanel Navigation;
     private javax.swing.JPanel SocialPanel;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
@@ -700,18 +687,13 @@ public class BorrowUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel16;
