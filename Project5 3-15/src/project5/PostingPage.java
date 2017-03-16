@@ -33,8 +33,8 @@ public class PostingPage extends javax.swing.JFrame {
         Header = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         Navigation = new javax.swing.JPanel();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
+        ClosetButton = new javax.swing.JButton();
+        FriendsButton = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
@@ -83,9 +83,19 @@ public class PostingPage extends javax.swing.JFrame {
 
         getContentPane().add(Header, java.awt.BorderLayout.NORTH);
 
-        jButton5.setText("My Closet");
+        ClosetButton.setText("My Closet");
+        ClosetButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ClosetButtonActionPerformed(evt);
+            }
+        });
 
-        jButton6.setText("Friends");
+        FriendsButton.setText("Friends");
+        FriendsButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                FriendsButtonActionPerformed(evt);
+            }
+        });
 
         jButton7.setText("Home");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -105,9 +115,9 @@ public class PostingPage extends javax.swing.JFrame {
         Navigation.setLayout(NavigationLayout);
         NavigationLayout.setHorizontalGroup(
             NavigationLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(ClosetButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(NavigationLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                .addComponent(jButton6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(FriendsButton, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton9, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jButton7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
@@ -116,9 +126,9 @@ public class PostingPage extends javax.swing.JFrame {
             .addGroup(NavigationLayout.createSequentialGroup()
                 .addComponent(jButton7)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton5)
+                .addComponent(ClosetButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton6)
+                .addComponent(FriendsButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton9)
                 .addContainerGap(355, Short.MAX_VALUE))
@@ -303,6 +313,9 @@ public class PostingPage extends javax.swing.JFrame {
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
+        BorrowUI testGui = new BorrowUI();
+        testGui.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
@@ -334,11 +347,26 @@ public class PostingPage extends javax.swing.JFrame {
             JOptionPane.QUESTION_MESSAGE,
             null,
             options,options);
+        
     }//GEN-LAST:event_jButton2MouseClicked
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void ClosetButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ClosetButtonActionPerformed
+        // TODO add your handling code here:
+        MyCloset testGui = new MyCloset();
+        testGui.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_ClosetButtonActionPerformed
+
+    private void FriendsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FriendsButtonActionPerformed
+        // TODO add your handling code here:
+        Friends testGui = new Friends();
+        testGui.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_FriendsButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -379,12 +407,12 @@ public class PostingPage extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton ClosetButton;
+    private javax.swing.JButton FriendsButton;
     private javax.swing.JPanel Header;
     private javax.swing.JPanel Navigation;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;

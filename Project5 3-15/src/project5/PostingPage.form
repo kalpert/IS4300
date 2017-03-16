@@ -71,9 +71,9 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="jButton5" alignment="0" max="32767" attributes="0"/>
+              <Component id="ClosetButton" alignment="0" max="32767" attributes="0"/>
               <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                  <Component id="jButton6" alignment="0" max="32767" attributes="0"/>
+                  <Component id="FriendsButton" alignment="0" max="32767" attributes="0"/>
                   <Component id="jButton9" alignment="0" max="32767" attributes="0"/>
               </Group>
               <Component id="jButton7" alignment="0" max="32767" attributes="0"/>
@@ -84,9 +84,9 @@
               <Group type="102" alignment="0" attributes="0">
                   <Component id="jButton7" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                  <Component id="ClosetButton" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+                  <Component id="FriendsButton" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jButton9" min="-2" max="-2" attributes="0"/>
                   <EmptySpace pref="355" max="32767" attributes="0"/>
@@ -95,15 +95,21 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JButton" name="jButton5">
+        <Component class="javax.swing.JButton" name="ClosetButton">
           <Properties>
             <Property name="text" type="java.lang.String" value="My Closet"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ClosetButtonActionPerformed"/>
+          </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton6">
+        <Component class="javax.swing.JButton" name="FriendsButton">
           <Properties>
             <Property name="text" type="java.lang.String" value="Friends"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FriendsButtonActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jButton7">
           <Properties>

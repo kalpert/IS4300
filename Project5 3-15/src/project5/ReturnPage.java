@@ -33,9 +33,9 @@ public class ReturnPage extends javax.swing.JFrame {
         Header = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         Navigation = new javax.swing.JPanel();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
+        ClosetButton = new javax.swing.JButton();
+        FriendsButton = new javax.swing.JButton();
+        HomeButton = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
@@ -95,14 +95,34 @@ public class ReturnPage extends javax.swing.JFrame {
 
         getContentPane().add(Header, java.awt.BorderLayout.NORTH);
 
-        jButton5.setText("My Closet");
-
-        jButton6.setText("Friends");
-
-        jButton7.setText("Home");
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
+        ClosetButton.setText("My Closet");
+        ClosetButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
+                ClosetButtonActionPerformed(evt);
+            }
+        });
+
+        FriendsButton.setText("Friends");
+        FriendsButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                FriendsButtonMouseClicked(evt);
+            }
+        });
+        FriendsButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                FriendsButtonActionPerformed(evt);
+            }
+        });
+
+        HomeButton.setText("Home");
+        HomeButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                HomeButtonMouseClicked(evt);
+            }
+        });
+        HomeButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                HomeButtonActionPerformed(evt);
             }
         });
 
@@ -117,20 +137,20 @@ public class ReturnPage extends javax.swing.JFrame {
         Navigation.setLayout(NavigationLayout);
         NavigationLayout.setHorizontalGroup(
             NavigationLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(ClosetButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(NavigationLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                .addComponent(jButton6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(FriendsButton, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton9, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addComponent(jButton7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(HomeButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         NavigationLayout.setVerticalGroup(
             NavigationLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(NavigationLayout.createSequentialGroup()
-                .addComponent(jButton7)
+                .addComponent(HomeButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton5)
+                .addComponent(ClosetButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton6)
+                .addComponent(FriendsButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton9)
                 .addContainerGap(355, Short.MAX_VALUE))
@@ -188,7 +208,7 @@ public class ReturnPage extends javax.swing.JFrame {
         jPanel7.add(jLabel3, java.awt.BorderLayout.PAGE_START);
 
         jPanel2.setPreferredSize(new java.awt.Dimension(750, 173));
-        jPanel2.setLayout(new java.awt.GridLayout());
+        jPanel2.setLayout(new java.awt.GridLayout(1, 0));
 
         jPanel5.setPreferredSize(new java.awt.Dimension(150, 150));
         jPanel5.setLayout(new java.awt.BorderLayout());
@@ -292,7 +312,7 @@ public class ReturnPage extends javax.swing.JFrame {
         jLabel5.setText("Returned items");
         jPanel13.add(jLabel5, java.awt.BorderLayout.PAGE_START);
 
-        jPanel8.setLayout(new java.awt.GridLayout());
+        jPanel8.setLayout(new java.awt.GridLayout(1, 0));
 
         jPanel10.setPreferredSize(new java.awt.Dimension(150, 150));
         jPanel10.setLayout(new java.awt.BorderLayout());
@@ -353,9 +373,9 @@ public class ReturnPage extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+    private void HomeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HomeButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton7ActionPerformed
+    }//GEN-LAST:event_HomeButtonActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
         // TODO add your handling code here:
@@ -425,6 +445,31 @@ public class ReturnPage extends javax.swing.JFrame {
             options,options);
     }//GEN-LAST:event_jButton15MouseClicked
 
+    private void FriendsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FriendsButtonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_FriendsButtonActionPerformed
+
+    private void FriendsButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_FriendsButtonMouseClicked
+        // TODO add your handling code here:
+        Friends testGui = new Friends();
+        testGui.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_FriendsButtonMouseClicked
+
+    private void HomeButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_HomeButtonMouseClicked
+        // TODO add your handling code here:
+        BorrowUI testGui = new BorrowUI();
+        testGui.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_HomeButtonMouseClicked
+
+    private void ClosetButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ClosetButtonActionPerformed
+        // TODO add your handling code here:
+        MyCloset testGui = new MyCloset();
+        testGui.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_ClosetButtonActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -462,16 +507,16 @@ public class ReturnPage extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton ClosetButton;
+    private javax.swing.JButton FriendsButton;
     private javax.swing.JPanel Header;
+    private javax.swing.JButton HomeButton;
     private javax.swing.JPanel Navigation;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;

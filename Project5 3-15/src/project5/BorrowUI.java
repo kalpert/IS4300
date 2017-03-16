@@ -5,6 +5,9 @@
  */
 package project5;
 
+import java.awt.Dimension;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author rachelrudolph
@@ -65,8 +68,7 @@ public class BorrowUI extends javax.swing.JFrame {
         jButton8 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
         Item7 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
         SocialPanel = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         jPanel15 = new javax.swing.JPanel();
@@ -101,8 +103,18 @@ public class BorrowUI extends javax.swing.JFrame {
         getContentPane().add(Header, java.awt.BorderLayout.NORTH);
 
         jButton5.setText("My Closet");
+        jButton5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton5MouseClicked(evt);
+            }
+        });
 
         jButton6.setText("Friends");
+        jButton6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton6MouseClicked(evt);
+            }
+        });
 
         jButton7.setText("Home");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -187,15 +199,12 @@ public class BorrowUI extends javax.swing.JFrame {
         jLabel2.setText("Today's Features");
 
         Item1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item1.setIcon(new javax.swing.ImageIcon("/Users/rachelrudolph/Downloads/my-icons-collection (2)/png/013-shoe.png")); // NOI18N
         Item1.setPreferredSize(new java.awt.Dimension(24, 24));
 
         Item2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item2.setIcon(new javax.swing.ImageIcon("/Users/rachelrudolph/Downloads/my-icons-collection/png/011-tie.png")); // NOI18N
         Item2.setPreferredSize(new Dimension(600,600));
 
         Item3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item3.setIcon(new javax.swing.ImageIcon("/Users/rachelrudolph/Downloads/my-icons-collection (2)/png/012-shirt.png")); // NOI18N
 
         javax.swing.GroupLayout FeaturedPanelLayout = new javax.swing.GroupLayout(FeaturedPanel);
         FeaturedPanel.setLayout(FeaturedPanelLayout);
@@ -227,13 +236,10 @@ public class BorrowUI extends javax.swing.JFrame {
         jLabel3.setText("Popular Items");
 
         Item4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item4.setIcon(new javax.swing.ImageIcon("/Users/rachelrudolph/Downloads/my-icons-collection (2)/png/011-coat.png")); // NOI18N
 
         Item5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item5.setIcon(new javax.swing.ImageIcon("/Users/rachelrudolph/Downloads/my-icons-collection (2)/png/010-clothing.png")); // NOI18N
 
         Item6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item6.setIcon(new javax.swing.ImageIcon("/Users/rachelrudolph/Downloads/my-icons-collection (2)/png/009-high-heel.png")); // NOI18N
 
         javax.swing.GroupLayout FeaturedPanel1Layout = new javax.swing.GroupLayout(FeaturedPanel1);
         FeaturedPanel1.setLayout(FeaturedPanel1Layout);
@@ -267,11 +273,15 @@ public class BorrowUI extends javax.swing.JFrame {
         CurrentBorrowedPanel.add(jLabel8);
 
         Item8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item8.setIcon(new javax.swing.ImageIcon("/Users/rachelrudolph/Downloads/my-icons-collection (2)/png/005-coffee-maker.png")); // NOI18N
 
         jLabel11.setText("Due 3/20/17");
 
         jButton3.setText("Return");
+        jButton3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton3MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -300,11 +310,15 @@ public class BorrowUI extends javax.swing.JFrame {
         CurrentBorrowedPanel.add(jPanel8);
 
         Item9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item9.setIcon(new javax.swing.ImageIcon("/Users/rachelrudolph/Downloads/my-icons-collection (2)/png/007-sunglasses.png")); // NOI18N
 
         jLabel12.setText("Due 3/20/17");
 
         jButton4.setText("Return");
+        jButton4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton4MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -333,11 +347,15 @@ public class BorrowUI extends javax.swing.JFrame {
         CurrentBorrowedPanel.add(jPanel9);
 
         Item10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item10.setIcon(new javax.swing.ImageIcon("/Users/rachelrudolph/Downloads/my-icons-collection (2)/png/008-top-hat.png")); // NOI18N
 
         jLabel13.setText("Due 3/20/17");
 
         jButton8.setText("Return");
+        jButton8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton8MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
@@ -366,11 +384,15 @@ public class BorrowUI extends javax.swing.JFrame {
         CurrentBorrowedPanel.add(jPanel10);
 
         Item7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item7.setIcon(new javax.swing.ImageIcon("/Users/rachelrudolph/Downloads/my-icons-collection (2)/png/004-rolling-pin.png")); // NOI18N
 
-        jLabel9.setText("Due 3/20/17");
-
-        jButton2.setText("Return");
+        jLabel4.setFont(new java.awt.Font("Malayalam MN", 3, 13)); // NOI18N
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel4.setText("More");
+        jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel4MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -379,21 +401,18 @@ public class BorrowUI extends javax.swing.JFrame {
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(Item7, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel9)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 82, Short.MAX_VALUE)
-                .addComponent(jButton2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 168, Short.MAX_VALUE)
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel9)
-                        .addComponent(jButton2))
+                    .addComponent(jLabel4)
                     .addComponent(Item7))
-                .addContainerGap())
+                .addGap(19, 19, 19))
         );
 
         CurrentBorrowedPanel.add(jPanel7);
@@ -437,7 +456,6 @@ public class BorrowUI extends javax.swing.JFrame {
         SocialPanel.add(jPanel15);
 
         Item16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item16.setIcon(new javax.swing.ImageIcon("/Users/rachelrudolph/Downloads/my-icons-collection (2)/png/003-instagram.png")); // NOI18N
 
         jLabel20.setText("Follow us on Instagram!");
 
@@ -465,7 +483,6 @@ public class BorrowUI extends javax.swing.JFrame {
         SocialPanel.add(jPanel16);
 
         Item17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item17.setIcon(new javax.swing.ImageIcon("/Users/rachelrudolph/Downloads/my-icons-collection (2)/png/002-twitter.png")); // NOI18N
 
         jLabel21.setText("Join us on Twitter!");
 
@@ -512,6 +529,60 @@ public class BorrowUI extends javax.swing.JFrame {
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void jButton6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton6MouseClicked
+        // TODO add your handling code here:
+        Friends testGui = new Friends();
+        testGui.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton6MouseClicked
+
+    private void jButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseClicked
+        // TODO add your handling code here:
+        MyCloset testGui = new MyCloset();
+        testGui.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton5MouseClicked
+
+    private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
+        // TODO add your handling code here:
+        ReturnPage testGui = new ReturnPage();
+        testGui.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jLabel4MouseClicked
+
+    private void jButton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseClicked
+        // TODO add your handling code here:
+        Object[] options = {"OK"};
+        int n = JOptionPane.showOptionDialog(this,
+            "Return pending...", "",
+            JOptionPane.YES_NO_OPTION,
+            JOptionPane.QUESTION_MESSAGE,
+            null,
+            options,options);
+    }//GEN-LAST:event_jButton3MouseClicked
+
+    private void jButton4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton4MouseClicked
+        // TODO add your handling code here:
+        Object[] options = {"OK"};
+        int n = JOptionPane.showOptionDialog(this,
+            "Return pending...", "",
+            JOptionPane.YES_NO_OPTION,
+            JOptionPane.QUESTION_MESSAGE,
+            null,
+            options,options);
+    }//GEN-LAST:event_jButton4MouseClicked
+
+    private void jButton8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton8MouseClicked
+        // TODO add your handling code here:
+        Object[] options = {"OK"};
+        int n = JOptionPane.showOptionDialog(this,
+            "Return pending...", "",
+            JOptionPane.YES_NO_OPTION,
+            JOptionPane.QUESTION_MESSAGE,
+            null,
+            options,options);
+    }//GEN-LAST:event_jButton8MouseClicked
 
     /**
      * @param args the command line arguments
@@ -569,7 +640,6 @@ public class BorrowUI extends javax.swing.JFrame {
     private javax.swing.JPanel Navigation;
     private javax.swing.JPanel SocialPanel;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
@@ -587,10 +657,8 @@ public class BorrowUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel16;
@@ -598,7 +666,6 @@ public class BorrowUI extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
