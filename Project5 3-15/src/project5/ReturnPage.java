@@ -446,7 +446,7 @@ public class ReturnPage extends javax.swing.JFrame {
 
     private void HomeButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_HomeButtonMouseClicked
         // TODO add your handling code here:
-        BorrowUI testGui = new BorrowUI();
+        HomePage testGui = new HomePage();
         testGui.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_HomeButtonMouseClicked
