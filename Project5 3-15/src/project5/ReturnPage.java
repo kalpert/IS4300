@@ -36,7 +36,6 @@ public class ReturnPage extends javax.swing.JFrame {
         ClosetButton = new javax.swing.JButton();
         FriendsButton = new javax.swing.JButton();
         HomeButton = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
         jPanel11 = new javax.swing.JPanel();
@@ -126,21 +125,12 @@ public class ReturnPage extends javax.swing.JFrame {
             }
         });
 
-        jButton9.setText("Newsfeed");
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
-            }
-        });
-
         javax.swing.GroupLayout NavigationLayout = new javax.swing.GroupLayout(Navigation);
         Navigation.setLayout(NavigationLayout);
         NavigationLayout.setHorizontalGroup(
             NavigationLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(ClosetButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(NavigationLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                .addComponent(FriendsButton, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton9, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addComponent(FriendsButton, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addComponent(HomeButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         NavigationLayout.setVerticalGroup(
@@ -151,9 +141,7 @@ public class ReturnPage extends javax.swing.JFrame {
                 .addComponent(ClosetButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(FriendsButton)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton9)
-                .addContainerGap(355, Short.MAX_VALUE))
+                .addContainerGap(390, Short.MAX_VALUE))
         );
 
         getContentPane().add(Navigation, java.awt.BorderLayout.WEST);
@@ -377,10 +365,6 @@ public class ReturnPage extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_HomeButtonActionPerformed
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton9ActionPerformed
-
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField2ActionPerformed
@@ -406,6 +390,7 @@ public class ReturnPage extends javax.swing.JFrame {
             JOptionPane.QUESTION_MESSAGE,
             null,
             options,options);
+        jButton2.setText("Pending");
     }//GEN-LAST:event_jButton2MouseClicked
 
     private void jButton13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton13MouseClicked
@@ -417,6 +402,7 @@ public class ReturnPage extends javax.swing.JFrame {
             JOptionPane.QUESTION_MESSAGE,
             null,
             options,options);
+        jButton13.setText("Pending");
     }//GEN-LAST:event_jButton13MouseClicked
 
     private void jButton14KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jButton14KeyPressed
@@ -432,6 +418,7 @@ public class ReturnPage extends javax.swing.JFrame {
             JOptionPane.QUESTION_MESSAGE,
             null,
             options,options);
+        jButton14.setText("Pending");
     }//GEN-LAST:event_jButton14MouseClicked
 
     private void jButton15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton15MouseClicked
@@ -443,6 +430,7 @@ public class ReturnPage extends javax.swing.JFrame {
             JOptionPane.QUESTION_MESSAGE,
             null,
             options,options);
+        jButton15.setText("Pending");
     }//GEN-LAST:event_jButton15MouseClicked
 
     private void FriendsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FriendsButtonActionPerformed
@@ -517,7 +505,6 @@ public class ReturnPage extends javax.swing.JFrame {
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
