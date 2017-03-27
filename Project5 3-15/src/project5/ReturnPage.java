@@ -202,7 +202,7 @@ public class ReturnPage extends javax.swing.JFrame {
         jPanel5.setLayout(new java.awt.BorderLayout());
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/fendi1.jpg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/fendi1.jpg"))); // NOI18N
         jPanel5.add(jLabel2, java.awt.BorderLayout.CENTER);
 
         jButton2.setText("Return");
@@ -219,7 +219,7 @@ public class ReturnPage extends javax.swing.JFrame {
         jPanel17.setLayout(new java.awt.BorderLayout());
 
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/chanel1.jpg"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/chanel1.jpg"))); // NOI18N
         jPanel17.add(jLabel9, java.awt.BorderLayout.CENTER);
 
         jButton13.setText("Return");
@@ -241,7 +241,7 @@ public class ReturnPage extends javax.swing.JFrame {
         jPanel18.setLayout(new java.awt.BorderLayout());
 
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/dress3.jpg"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/dress3.jpg"))); // NOI18N
         jPanel18.add(jLabel10, java.awt.BorderLayout.CENTER);
 
         jButton14.setText("Return");
@@ -268,7 +268,7 @@ public class ReturnPage extends javax.swing.JFrame {
         jPanel19.setLayout(new java.awt.BorderLayout());
 
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/gucci2.jpg"))); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/gucci2.jpg"))); // NOI18N
         jPanel19.add(jLabel11, java.awt.BorderLayout.CENTER);
 
         jButton15.setText("Return");
@@ -311,7 +311,7 @@ public class ReturnPage extends javax.swing.JFrame {
         jPanel10.add(jLabel13, java.awt.BorderLayout.PAGE_END);
 
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/celine1.jpg"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/celine1.jpg"))); // NOI18N
         jPanel10.add(jLabel6, java.awt.BorderLayout.CENTER);
 
         jPanel8.add(jPanel10);
@@ -325,7 +325,7 @@ public class ReturnPage extends javax.swing.JFrame {
         jPanel9.add(jLabel16, java.awt.BorderLayout.PAGE_END);
 
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/gucci1.jpeg"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/gucci1.jpeg"))); // NOI18N
         jPanel9.add(jLabel4, java.awt.BorderLayout.CENTER);
 
         jPanel8.add(jPanel9);
@@ -339,7 +339,7 @@ public class ReturnPage extends javax.swing.JFrame {
         jPanel14.add(jLabel17, java.awt.BorderLayout.PAGE_END);
 
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/fendi2.jpg"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/fendi2.jpg"))); // NOI18N
         jPanel14.add(jLabel8, java.awt.BorderLayout.CENTER);
 
         jPanel8.add(jPanel14);
