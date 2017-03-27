@@ -139,27 +139,27 @@ public class FriendsPanel extends javax.swing.JPanel {
         FootballPanel.setPreferredSize(new java.awt.Dimension(711, 343));
         FootballPanel.setLayout(new java.awt.GridLayout(2, 3));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel1.setText("Jimmy");
         FootballPanel.add(jLabel1);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel2.setText("Bobby");
         FootballPanel.add(jLabel2);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel3.setText("Danny");
         FootballPanel.add(jLabel3);
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel6.setText("Davey");
         FootballPanel.add(jLabel6);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel7.setText("Sammy");
         FootballPanel.add(jLabel7);
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel8.setText("Roberto");
         FootballPanel.add(jLabel8);
 
@@ -169,27 +169,27 @@ public class FriendsPanel extends javax.swing.JPanel {
         RoommatesPanel.setPreferredSize(new java.awt.Dimension(711, 343));
         RoommatesPanel.setLayout(new java.awt.GridLayout(2, 3));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel4.setText("Jimmy");
         RoommatesPanel.add(jLabel4);
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel5.setText("Bobby");
         RoommatesPanel.add(jLabel5);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel9.setText("Danny");
         RoommatesPanel.add(jLabel9);
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel10.setText("Davey");
         RoommatesPanel.add(jLabel10);
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel11.setText("Sammy");
         RoommatesPanel.add(jLabel11);
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel12.setText("Roberto");
         RoommatesPanel.add(jLabel12);
 
@@ -199,27 +199,27 @@ public class FriendsPanel extends javax.swing.JPanel {
         PalsPanel.setPreferredSize(new java.awt.Dimension(711, 343));
         PalsPanel.setLayout(new java.awt.GridLayout(2, 3));
 
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel13.setText("Jimmy");
         PalsPanel.add(jLabel13);
 
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel14.setText("Bobby");
         PalsPanel.add(jLabel14);
 
-        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel15.setText("Danny");
         PalsPanel.add(jLabel15);
 
-        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel16.setText("Davey");
         PalsPanel.add(jLabel16);
 
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel17.setText("Sammy");
         PalsPanel.add(jLabel17);
 
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel18.setText("Roberto");
         PalsPanel.add(jLabel18);
 
@@ -229,27 +229,27 @@ public class FriendsPanel extends javax.swing.JPanel {
         KappaSigPanel.setPreferredSize(new java.awt.Dimension(711, 343));
         KappaSigPanel.setLayout(new java.awt.GridLayout(2, 3));
 
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel19.setText("Jimmy");
         KappaSigPanel.add(jLabel19);
 
-        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel20.setText("Bobby");
         KappaSigPanel.add(jLabel20);
 
-        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel21.setText("Danny");
         KappaSigPanel.add(jLabel21);
 
-        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel22.setText("Davey");
         KappaSigPanel.add(jLabel22);
 
-        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel23.setText("Sammy");
         KappaSigPanel.add(jLabel23);
 
-        jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel24.setText("Roberto");
         KappaSigPanel.add(jLabel24);
 

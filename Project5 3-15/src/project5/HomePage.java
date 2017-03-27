@@ -128,15 +128,15 @@ public class HomePage extends javax.swing.JFrame {
         jLabel2.setText("Today's Features");
 
         Item1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/008-sunglasses.png"))); // NOI18N
+        Item1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/008-sunglasses.png"))); // NOI18N
         Item1.setPreferredSize(new java.awt.Dimension(24, 24));
 
         Item2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/007-winter-hat.png"))); // NOI18N
+        Item2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/007-winter-hat.png"))); // NOI18N
         Item2.setPreferredSize(new Dimension(600,600));
 
         Item3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/011-clothing.png"))); // NOI18N
+        Item3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/011-clothing.png"))); // NOI18N
 
         javax.swing.GroupLayout FeaturedPanelLayout = new javax.swing.GroupLayout(FeaturedPanel);
         FeaturedPanel.setLayout(FeaturedPanelLayout);
@@ -168,13 +168,13 @@ public class HomePage extends javax.swing.JFrame {
         jLabel3.setText("Popular Items");
 
         Item4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/010-high-heel.png"))); // NOI18N
+        Item4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/010-high-heel.png"))); // NOI18N
 
         Item5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/012-coat.png"))); // NOI18N
+        Item5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/012-coat.png"))); // NOI18N
 
         Item6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/014-shoe.png"))); // NOI18N
+        Item6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/014-shoe.png"))); // NOI18N
 
         javax.swing.GroupLayout PopularPanelLayout = new javax.swing.GroupLayout(PopularPanel);
         PopularPanel.setLayout(PopularPanelLayout);
@@ -208,7 +208,7 @@ public class HomePage extends javax.swing.JFrame {
         CurrentBorrowedPanel.add(jLabel8);
 
         Item8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/006-coffee-maker.png"))); // NOI18N
+        Item8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/006-coffee-maker.png"))); // NOI18N
 
         jLabel11.setText("Due 3/20/17");
 
@@ -251,7 +251,7 @@ public class HomePage extends javax.swing.JFrame {
         CurrentBorrowedPanel.add(jPanel8);
 
         Item9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/015-tie.png"))); // NOI18N
+        Item9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/015-tie.png"))); // NOI18N
 
         jLabel12.setText("Due 3/24/17");
 
@@ -294,7 +294,7 @@ public class HomePage extends javax.swing.JFrame {
         CurrentBorrowedPanel.add(jPanel9);
 
         Item10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/013-shirt.png"))); // NOI18N
+        Item10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/013-shirt.png"))); // NOI18N
 
         jLabel13.setText("Due 4/1/17");
 
@@ -389,7 +389,7 @@ public class HomePage extends javax.swing.JFrame {
         SocialPanel.add(jLabel10);
 
         Item15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/001-facebook.png"))); // NOI18N
+        Item15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/001-facebook.png"))); // NOI18N
         Item15.setMaximumSize(new java.awt.Dimension(64, 64));
 
         jLabel19.setText("Like us on Facebook!");
@@ -418,6 +418,7 @@ public class HomePage extends javax.swing.JFrame {
         SocialPanel.add(jPanel15);
 
         Item16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Item16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/004-instagram.png"))); // NOI18N
 
         jLabel20.setText("Follow us on Instagram!");
 
@@ -435,7 +436,7 @@ public class HomePage extends javax.swing.JFrame {
         jPanel16Layout.setVerticalGroup(
             jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel16Layout.createSequentialGroup()
-                .addContainerGap(22, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel20)
                     .addComponent(Item16))
@@ -445,7 +446,7 @@ public class HomePage extends javax.swing.JFrame {
         SocialPanel.add(jPanel16);
 
         Item17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/003-twitter.png"))); // NOI18N
+        Item17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/003-twitter.png"))); // NOI18N
 
         jLabel21.setText("Join us on Twitter!");
 
@@ -476,7 +477,18 @@ public class HomePage extends javax.swing.JFrame {
 
         jPanel3.add(jPanel5, java.awt.BorderLayout.PAGE_END);
 
-        getContentPane().add(jPanel3, java.awt.BorderLayout.CENTER);
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 489, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
         getAccessibleContext().setAccessibleDescription("");
 

@@ -152,27 +152,27 @@ public class Roommates extends javax.swing.JFrame {
         jPanel2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel2.setLayout(new java.awt.GridLayout(2, 3));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel1.setText("Jimmy");
         jPanel2.add(jLabel1);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel2.setText("Bobby");
         jPanel2.add(jLabel2);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel3.setText("Danny");
         jPanel2.add(jLabel3);
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel6.setText("Davey");
         jPanel2.add(jLabel6);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel7.setText("Sammy");
         jPanel2.add(jLabel7);
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
         jLabel8.setText("Roberto");
         jPanel2.add(jLabel8);
 

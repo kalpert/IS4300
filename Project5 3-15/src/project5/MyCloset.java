@@ -199,31 +199,31 @@ public class MyCloset extends javax.swing.JFrame {
 
         jPanel6.setPreferredSize(new java.awt.Dimension(730, 250));
 
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Tops.png"))); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/Tops.png"))); // NOI18N
         jPanel6.add(jButton2);
 
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Bottoms.png"))); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/Bottoms.png"))); // NOI18N
         jButton3.setPreferredSize(new java.awt.Dimension(194, 186));
         jPanel6.add(jButton3);
 
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Dress.png"))); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/Dress.png"))); // NOI18N
         jButton4.setPreferredSize(new java.awt.Dimension(194, 186));
         jPanel6.add(jButton4);
 
-        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Jewelry.png"))); // NOI18N
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/Jewelry.png"))); // NOI18N
         jButton8.setPreferredSize(new java.awt.Dimension(194, 186));
         jPanel6.add(jButton8);
 
-        jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Accessories.png"))); // NOI18N
+        jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/Accessories.png"))); // NOI18N
         jButton14.setToolTipText("");
         jButton14.setPreferredSize(new java.awt.Dimension(194, 186));
         jPanel6.add(jButton14);
 
-        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Shoe.png"))); // NOI18N
+        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/Shoe.png"))); // NOI18N
         jButton13.setPreferredSize(new java.awt.Dimension(194, 186));
         jPanel6.add(jButton13);
 
-        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Kitchen.png"))); // NOI18N
+        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/Kitchen.png"))); // NOI18N
         jPanel6.add(jButton12);
 
         jScrollPane1.setViewportView(jPanel6);

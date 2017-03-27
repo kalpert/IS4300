@@ -83,7 +83,7 @@ public class ProfilePanel extends javax.swing.JPanel {
         MainPanel.setMaximumSize(new java.awt.Dimension(702, 326));
 
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/icon.png"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/icon.png"))); // NOI18N
 
         jButton2.setText("Change Pictrure");
 

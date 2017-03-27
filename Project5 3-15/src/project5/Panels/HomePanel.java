@@ -56,7 +56,7 @@ public class HomePanel extends javax.swing.JPanel {
         jPanel12 = new javax.swing.JPanel();
         Item15 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
-        jButton6 = new javax.swing.JButton();
+        ViewAllBorrowed = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
         SocialPanel = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
@@ -319,15 +319,15 @@ public class HomePanel extends javax.swing.JPanel {
 
         jLabel15.setText("Due 4/23/17");
 
-        jButton6.setText("View All");
-        jButton6.addMouseListener(new java.awt.event.MouseAdapter() {
+        ViewAllBorrowed.setText("View All");
+        ViewAllBorrowed.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton6MouseClicked(evt);
+                ViewAllBorrowedMouseClicked(evt);
             }
         });
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        ViewAllBorrowed.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                ViewAllBorrowedActionPerformed(evt);
             }
         });
 
@@ -355,7 +355,7 @@ public class HomePanel extends javax.swing.JPanel {
                 .addGap(18, 18, 18)
                 .addComponent(jButton7)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton6)
+                .addComponent(ViewAllBorrowed)
                 .addContainerGap())
         );
         jPanel12Layout.setVerticalGroup(
@@ -365,7 +365,7 @@ public class HomePanel extends javax.swing.JPanel {
                 .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel15)
-                        .addComponent(jButton6)
+                        .addComponent(ViewAllBorrowed)
                         .addComponent(jButton7))
                     .addComponent(Item15))
                 .addContainerGap())
@@ -520,13 +520,15 @@ public class HomePanel extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton5ActionPerformed
 
-    private void jButton6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton6MouseClicked
+    private void ViewAllBorrowedMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ViewAllBorrowedMouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6MouseClicked
+    }//GEN-LAST:event_ViewAllBorrowedMouseClicked
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+    private void ViewAllBorrowedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ViewAllBorrowedActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
+        ReturnPanel returns = new ReturnPanel();
+        returns.setVisible(true);
+    }//GEN-LAST:event_ViewAllBorrowedActionPerformed
 
     private void jButton7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton7MouseClicked
         // TODO add your handling code here:
@@ -556,10 +558,10 @@ public class HomePanel extends javax.swing.JPanel {
     private javax.swing.JPanel PopularPanel;
     private javax.swing.JPanel SearchPanel;
     private javax.swing.JPanel SocialPanel;
+    private javax.swing.JButton ViewAllBorrowed;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;

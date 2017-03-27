@@ -86,7 +86,7 @@ public class MainWrapper extends javax.swing.JFrame {
             }
         });
 
-        UserProfileButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/001-avatar-inside-a-circle.png"))); // NOI18N
+        UserProfileButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/001-avatar-inside-a-circle.png"))); // NOI18N
         UserProfileButton.setText("Jane Smith");
         UserProfileButton.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         UserProfileButton.addActionListener(new java.awt.event.ActionListener() {
