@@ -30,20 +30,10 @@ public class HomePage extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        Header = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        Navigation = new javax.swing.JPanel();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
         jTextField1 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
-        jScrollPane1 = new javax.swing.JScrollPane();
         jPanel5 = new javax.swing.JPanel();
         FeaturedPanel = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
@@ -71,7 +61,7 @@ public class HomePage extends javax.swing.JFrame {
         jButton8 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
         Item7 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        ViewBorrowed = new javax.swing.JButton();
         SocialPanel = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         jPanel15 = new javax.swing.JPanel();
@@ -85,89 +75,9 @@ public class HomePage extends javax.swing.JFrame {
         jLabel21 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(730, 500));
-
-        Header.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 0, 24)); // NOI18N
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("BORROW");
-
-        javax.swing.GroupLayout HeaderLayout = new javax.swing.GroupLayout(Header);
-        Header.setLayout(HeaderLayout);
-        HeaderLayout.setHorizontalGroup(
-            HeaderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 762, Short.MAX_VALUE)
-        );
-        HeaderLayout.setVerticalGroup(
-            HeaderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-
-        getContentPane().add(Header, java.awt.BorderLayout.NORTH);
-
-        jButton5.setText("My Closet");
-        jButton5.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton5MouseClicked(evt);
-            }
-        });
-
-        jButton6.setText("Friends");
-        jButton6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton6MouseClicked(evt);
-            }
-        });
-
-        jButton7.setText("Home");
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
-            }
-        });
-
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/001-avatar-inside-a-circle.png"))); // NOI18N
-        jButton2.setText("Jane Smith");
-
-        jButton10.setText("Settings");
-
-        jButton11.setText("Help");
-
-        javax.swing.GroupLayout NavigationLayout = new javax.swing.GroupLayout(Navigation);
-        Navigation.setLayout(NavigationLayout);
-        NavigationLayout.setHorizontalGroup(
-            NavigationLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jButton7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, NavigationLayout.createSequentialGroup()
-                .addGroup(NavigationLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jButton10, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, NavigationLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addComponent(jButton11, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap())
-        );
-        NavigationLayout.setVerticalGroup(
-            NavigationLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(NavigationLayout.createSequentialGroup()
-                .addComponent(jButton7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton5)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton6)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 220, Short.MAX_VALUE)
-                .addComponent(jButton2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton10)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton11)
-                .addGap(56, 56, 56))
-        );
-
-        getContentPane().add(Navigation, java.awt.BorderLayout.WEST);
+        setMinimumSize(new java.awt.Dimension(703, 371));
+        setPreferredSize(new java.awt.Dimension(703, 371));
+        setSize(new java.awt.Dimension(703, 371));
 
         jPanel3.setLayout(new java.awt.BorderLayout());
 
@@ -193,7 +103,7 @@ public class HomePage extends javax.swing.JFrame {
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 534, Short.MAX_VALUE)
+                .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 653, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton1)
                 .addContainerGap())
@@ -218,7 +128,7 @@ public class HomePage extends javax.swing.JFrame {
         jLabel2.setText("Today's Features");
 
         Item1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Item1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/008-sunglasses.png"))); // NOI18N
+        Item1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/008-sunglasses.png"))); // NOI18N
         Item1.setPreferredSize(new java.awt.Dimension(24, 24));
 
         Item2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -323,7 +233,7 @@ public class HomePage extends javax.swing.JFrame {
                 .addComponent(Item8, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel11)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 84, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 153, Short.MAX_VALUE)
                 .addComponent(jButton3))
         );
         jPanel8Layout.setVerticalGroup(
@@ -366,7 +276,7 @@ public class HomePage extends javax.swing.JFrame {
                 .addComponent(Item9, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel12)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 84, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 153, Short.MAX_VALUE)
                 .addComponent(jButton4))
         );
         jPanel9Layout.setVerticalGroup(
@@ -409,7 +319,7 @@ public class HomePage extends javax.swing.JFrame {
                 .addComponent(Item10, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel13)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 92, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 161, Short.MAX_VALUE)
                 .addComponent(jButton8))
         );
         jPanel10Layout.setVerticalGroup(
@@ -428,12 +338,15 @@ public class HomePage extends javax.swing.JFrame {
 
         Item7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
-        jLabel4.setFont(new java.awt.Font("Malayalam MN", 3, 13)); // NOI18N
-        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setText("More");
-        jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
+        ViewBorrowed.setText("View All");
+        ViewBorrowed.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel4MouseClicked(evt);
+                ViewBorrowedMouseClicked(evt);
+            }
+        });
+        ViewBorrowed.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ViewBorrowedActionPerformed(evt);
             }
         });
 
@@ -444,18 +357,24 @@ public class HomePage extends javax.swing.JFrame {
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(Item7, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 170, Short.MAX_VALUE)
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addContainerGap(339, Short.MAX_VALUE))
+            .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel7Layout.createSequentialGroup()
+                    .addGap(148, 148, 148)
+                    .addComponent(ViewBorrowed)
+                    .addContainerGap(139, Short.MAX_VALUE)))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel4)
-                    .addComponent(Item7))
-                .addGap(19, 19, 19))
+                .addComponent(Item7)
+                .addGap(38, 38, 38))
+            .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel7Layout.createSequentialGroup()
+                    .addGap(7, 7, 7)
+                    .addComponent(ViewBorrowed)
+                    .addContainerGap(8, Short.MAX_VALUE)))
         );
 
         CurrentBorrowedPanel.add(jPanel7);
@@ -484,7 +403,7 @@ public class HomePage extends javax.swing.JFrame {
                 .addComponent(Item15, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(63, Short.MAX_VALUE))
+                .addContainerGap(132, Short.MAX_VALUE))
         );
         jPanel15Layout.setVerticalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -511,12 +430,12 @@ public class HomePage extends javax.swing.JFrame {
                 .addComponent(Item16, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(77, Short.MAX_VALUE))
+                .addContainerGap(146, Short.MAX_VALUE))
         );
         jPanel16Layout.setVerticalGroup(
             jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel16Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(22, Short.MAX_VALUE)
                 .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel20)
                     .addComponent(Item16))
@@ -539,7 +458,7 @@ public class HomePage extends javax.swing.JFrame {
                 .addComponent(Item17, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 168, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(84, Short.MAX_VALUE))
+                .addContainerGap(153, Short.MAX_VALUE))
         );
         jPanel17Layout.setVerticalGroup(
             jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -555,103 +474,29 @@ public class HomePage extends javax.swing.JFrame {
 
         jPanel5.add(SocialPanel);
 
-        jScrollPane1.setViewportView(jPanel5);
-
-        jPanel3.add(jScrollPane1, java.awt.BorderLayout.CENTER);
+        jPanel3.add(jPanel5, java.awt.BorderLayout.PAGE_END);
 
         getContentPane().add(jPanel3, java.awt.BorderLayout.CENTER);
 
+        getAccessibleContext().setAccessibleDescription("");
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
 
-    private void jButton6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton6MouseClicked
-        // TODO add your handling code here:
-        Friends testGui = new Friends();
-        testGui.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton6MouseClicked
-
-    private void jButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseClicked
-        // TODO add your handling code here:
-        MyCloset testGui = new MyCloset();
-        testGui.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton5MouseClicked
-
-    private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
-        // TODO add your handling code here:
-        ReturnPage testGui = new ReturnPage();
-        testGui.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jLabel4MouseClicked
-
-    private void jButton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseClicked
-        // TODO add your handling code here:
-        Object[] options = {"OK"};
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        Object[] options = {"Yes I do!", "No I don't :("};
         int n = JOptionPane.showOptionDialog(this,
-            "Return pending...", "",
-            JOptionPane.YES_NO_OPTION,
-            JOptionPane.QUESTION_MESSAGE,
-            null,
-            options,options);
-        jButton3.setText("Pending");
-    }//GEN-LAST:event_jButton3MouseClicked
-
-    private void jButton4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton4MouseClicked
-        // TODO add your handling code here:
-        Object[] options = {"OK"};
-        int n = JOptionPane.showOptionDialog(this,
-            "Return pending...", "",
-            JOptionPane.YES_NO_OPTION,
-            JOptionPane.QUESTION_MESSAGE,
-            null,
-            options,options);
-        jButton3.setText("Pending");
-    }//GEN-LAST:event_jButton4MouseClicked
-
-    private void jButton8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton8MouseClicked
-        // TODO add your handling code here:
-        Object[] options = {"OK"};
-        int n = JOptionPane.showOptionDialog(this,
-            "Return pending...", "",
-            JOptionPane.YES_NO_OPTION,
-            JOptionPane.QUESTION_MESSAGE,
-            null,
-            options,options);
-        jButton8.setText("Pending");
-    }//GEN-LAST:event_jButton8MouseClicked
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
-        Object[] options = {"OK"};
-        int n = JOptionPane.showOptionDialog(this,
-            "Return pending...", "",
-            JOptionPane.YES_NO_OPTION,
-            JOptionPane.QUESTION_MESSAGE,
-            null,
-            options,options);
-        jButton3.setText("Pending");
-    }//GEN-LAST:event_jButton3ActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
-        Object[] options = {"OK"};
-        int n = JOptionPane.showOptionDialog(this,
-            "Return pending...", "",
+            "Do you want to borrow this black belt?", "",
             JOptionPane.YES_NO_OPTION,
             JOptionPane.QUESTION_MESSAGE,
             null,
             options,options);
         jButton4.setText("Pending");
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
@@ -665,16 +510,73 @@ public class HomePage extends javax.swing.JFrame {
         jButton8.setText("Pending");
     }//GEN-LAST:event_jButton8ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        Object[] options = {"Yes I do!", "No I don't :("};
+    private void jButton8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton8MouseClicked
+        // TODO add your handling code here:
+        Object[] options = {"OK"};
         int n = JOptionPane.showOptionDialog(this,
-            "Do you want to borrow this black belt?", "",
+            "Return pending...", "",
+            JOptionPane.YES_NO_OPTION,
+            JOptionPane.QUESTION_MESSAGE,
+            null,
+            options,options);
+        jButton8.setText("Pending");
+    }//GEN-LAST:event_jButton8MouseClicked
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+        Object[] options = {"OK"};
+        int n = JOptionPane.showOptionDialog(this,
+            "Return pending...", "",
             JOptionPane.YES_NO_OPTION,
             JOptionPane.QUESTION_MESSAGE,
             null,
             options,options);
         jButton4.setText("Pending");
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton4MouseClicked
+        // TODO add your handling code here:
+        Object[] options = {"OK"};
+        int n = JOptionPane.showOptionDialog(this,
+            "Return pending...", "",
+            JOptionPane.YES_NO_OPTION,
+            JOptionPane.QUESTION_MESSAGE,
+            null,
+            options,options);
+        jButton3.setText("Pending");
+    }//GEN-LAST:event_jButton4MouseClicked
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        Object[] options = {"OK"};
+        int n = JOptionPane.showOptionDialog(this,
+            "Return pending...", "",
+            JOptionPane.YES_NO_OPTION,
+            JOptionPane.QUESTION_MESSAGE,
+            null,
+            options,options);
+        jButton3.setText("Pending");
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseClicked
+        // TODO add your handling code here:
+        Object[] options = {"OK"};
+        int n = JOptionPane.showOptionDialog(this,
+            "Return pending...", "",
+            JOptionPane.YES_NO_OPTION,
+            JOptionPane.QUESTION_MESSAGE,
+            null,
+            options,options);
+        jButton3.setText("Pending");
+    }//GEN-LAST:event_jButton3MouseClicked
+
+    private void ViewBorrowedMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ViewBorrowedMouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ViewBorrowedMouseClicked
+
+    private void ViewBorrowedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ViewBorrowedActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ViewBorrowedActionPerformed
 
     
     /**
@@ -716,7 +618,6 @@ public class HomePage extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel CurrentBorrowedPanel;
     private javax.swing.JPanel FeaturedPanel;
-    private javax.swing.JPanel Header;
     private javax.swing.JLabel Item1;
     private javax.swing.JLabel Item10;
     private javax.swing.JLabel Item15;
@@ -730,20 +631,13 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JLabel Item7;
     private javax.swing.JLabel Item8;
     private javax.swing.JLabel Item9;
-    private javax.swing.JPanel Navigation;
     private javax.swing.JPanel PopularPanel;
     private javax.swing.JPanel SocialPanel;
+    private javax.swing.JButton ViewBorrowed;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
@@ -753,7 +647,6 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel15;
@@ -765,7 +658,6 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
-    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }
