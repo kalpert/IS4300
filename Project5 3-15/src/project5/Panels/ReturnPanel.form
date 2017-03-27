@@ -182,7 +182,7 @@
                               <Properties>
                                 <Property name="horizontalAlignment" type="int" value="0"/>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/project5/fendi1.jpg"/>
+                                  <Image iconType="3" name="/project5/Images/fendi1.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -219,7 +219,7 @@
                               <Properties>
                                 <Property name="horizontalAlignment" type="int" value="0"/>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/project5/chanel1.jpg"/>
+                                  <Image iconType="3" name="/project5/Images/chanel1.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -257,7 +257,7 @@
                               <Properties>
                                 <Property name="horizontalAlignment" type="int" value="0"/>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/project5/dress3.jpg"/>
+                                  <Image iconType="3" name="/project5/Images/dress3.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -296,7 +296,7 @@
                               <Properties>
                                 <Property name="horizontalAlignment" type="int" value="0"/>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/project5/gucci2.jpg"/>
+                                  <Image iconType="3" name="/project5/Images/gucci2.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -393,7 +393,7 @@
                               <Properties>
                                 <Property name="horizontalAlignment" type="int" value="0"/>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/project5/celine1.jpg"/>
+                                  <Image iconType="3" name="/project5/Images/celine1.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -431,7 +431,7 @@
                               <Properties>
                                 <Property name="horizontalAlignment" type="int" value="0"/>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/project5/gucci1.jpeg"/>
+                                  <Image iconType="3" name="/project5/Images/gucci1.jpeg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
@@ -469,7 +469,7 @@
                               <Properties>
                                 <Property name="horizontalAlignment" type="int" value="0"/>
                                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                  <Image iconType="3" name="/project5/fendi2.jpg"/>
+                                  <Image iconType="3" name="/project5/Images/fendi2.jpg"/>
                                 </Property>
                               </Properties>
                               <Constraints>
