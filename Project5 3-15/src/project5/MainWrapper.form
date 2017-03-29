@@ -75,7 +75,7 @@
                   <Group type="103" groupAlignment="1" attributes="0">
                       <Component id="HelpButton" alignment="0" max="32767" attributes="0"/>
                       <Component id="SettingsButton" max="32767" attributes="0"/>
-                      <Component id="UserProfileButton" alignment="0" pref="113" max="32767" attributes="0"/>
+                      <Component id="UserProfileButton" alignment="0" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -89,7 +89,7 @@
                   <Component id="ClosetButton" min="-2" pref="60" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="FriendsButton" min="-2" pref="60" max="-2" attributes="0"/>
-                  <EmptySpace pref="81" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
                   <Component id="UserProfileButton" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="SettingsButton" min="-2" pref="36" max="-2" attributes="0"/>

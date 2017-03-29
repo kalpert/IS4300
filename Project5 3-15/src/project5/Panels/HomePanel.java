@@ -18,6 +18,8 @@ public class HomePanel extends javax.swing.JPanel {
      */
     public HomePanel() {
         initComponents();
+        HomePanel.setVisible(true);
+        returnPanel.setVisible(false);
     }
 
     /**
@@ -29,9 +31,7 @@ public class HomePanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        SearchPanel = new javax.swing.JPanel();
-        jTextField1 = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        HomePanel = new javax.swing.JPanel();
         MainPanel = new javax.swing.JPanel();
         FeaturesPanel = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
@@ -69,48 +69,15 @@ public class HomePanel extends javax.swing.JPanel {
         jPanel17 = new javax.swing.JPanel();
         Item18 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
+        SearchPanel = new javax.swing.JPanel();
+        jTextField1 = new javax.swing.JTextField();
+        jButton1 = new javax.swing.JButton();
+        returnPanel = new project5.Panels.ReturnPanel();
 
         setMinimumSize(new java.awt.Dimension(703, 371));
-        setLayout(new java.awt.BorderLayout());
+        setLayout(new javax.swing.OverlayLayout(this));
 
-        SearchPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-
-        jTextField1.setText("I'm Looking To Borrow...");
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
-            }
-        });
-
-        jButton1.setText("Search");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout SearchPanelLayout = new javax.swing.GroupLayout(SearchPanel);
-        SearchPanel.setLayout(SearchPanelLayout);
-        SearchPanelLayout.setHorizontalGroup(
-            SearchPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(SearchPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 590, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton1)
-                .addContainerGap())
-        );
-        SearchPanelLayout.setVerticalGroup(
-            SearchPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(SearchPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(SearchPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        add(SearchPanel, java.awt.BorderLayout.PAGE_START);
+        HomePanel.setLayout(new java.awt.BorderLayout());
 
         MainPanel.setMaximumSize(new java.awt.Dimension(702, 326));
         MainPanel.setLayout(new java.awt.GridLayout(2, 2));
@@ -470,7 +437,49 @@ public class HomePanel extends javax.swing.JPanel {
 
         MainPanel.add(SocialPanel);
 
-        add(MainPanel, java.awt.BorderLayout.CENTER);
+        HomePanel.add(MainPanel, java.awt.BorderLayout.CENTER);
+
+        SearchPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
+        jTextField1.setText("I'm Looking To Borrow...");
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
+
+        jButton1.setText("Search");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout SearchPanelLayout = new javax.swing.GroupLayout(SearchPanel);
+        SearchPanel.setLayout(SearchPanelLayout);
+        SearchPanelLayout.setHorizontalGroup(
+            SearchPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SearchPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 590, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jButton1)
+                .addContainerGap())
+        );
+        SearchPanelLayout.setVerticalGroup(
+            SearchPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SearchPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(SearchPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton1))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        HomePanel.add(SearchPanel, java.awt.BorderLayout.PAGE_START);
+
+        add(HomePanel);
+        add(returnPanel);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
@@ -520,16 +529,6 @@ public class HomePanel extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton5ActionPerformed
 
-    private void ViewAllBorrowedMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ViewAllBorrowedMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ViewAllBorrowedMouseClicked
-
-    private void ViewAllBorrowedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ViewAllBorrowedActionPerformed
-        // TODO add your handling code here:
-        ReturnPanel returns = new ReturnPanel();
-        returns.setVisible(true);
-    }//GEN-LAST:event_ViewAllBorrowedActionPerformed
-
     private void jButton7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton7MouseClicked
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton7MouseClicked
@@ -538,10 +537,21 @@ public class HomePanel extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton7ActionPerformed
 
+    private void ViewAllBorrowedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ViewAllBorrowedActionPerformed
+        // TODO add your handling code here:
+        HomePanel.setVisible(false);
+        returnPanel.setVisible(true);
+    }//GEN-LAST:event_ViewAllBorrowedActionPerformed
+
+    private void ViewAllBorrowedMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ViewAllBorrowedMouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ViewAllBorrowedMouseClicked
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel BorrowedPanel;
     private javax.swing.JPanel FeaturesPanel;
+    private javax.swing.JPanel HomePanel;
     private javax.swing.JLabel Item1;
     private javax.swing.JLabel Item14;
     private javax.swing.JLabel Item15;
@@ -580,5 +590,6 @@ public class HomePanel extends javax.swing.JPanel {
     private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JTextField jTextField1;
+    private project5.Panels.ReturnPanel returnPanel;
     // End of variables declaration//GEN-END:variables
 }
