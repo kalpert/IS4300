@@ -33,9 +33,6 @@ public class ReturnPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        MainPanel = new javax.swing.JPanel();
-        jPanel1 = new javax.swing.JPanel();
-        jPanel7 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jPanel2 = new javax.swing.JPanel();
@@ -51,35 +48,25 @@ public class ReturnPanel extends javax.swing.JPanel {
         jPanel19 = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
         jButton15 = new javax.swing.JButton();
-        jPanel13 = new javax.swing.JPanel();
-        jLabel5 = new javax.swing.JLabel();
-        jScrollPane4 = new javax.swing.JScrollPane();
-        jPanel8 = new javax.swing.JPanel();
-        jPanel10 = new javax.swing.JPanel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jPanel9 = new javax.swing.JPanel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jPanel14 = new javax.swing.JPanel();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
+        jPanel15 = new javax.swing.JPanel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jPanel11 = new javax.swing.JPanel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jPanel12 = new javax.swing.JPanel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
 
         setMinimumSize(new java.awt.Dimension(703, 371));
-        setLayout(new java.awt.BorderLayout());
-
-        MainPanel.setMaximumSize(new java.awt.Dimension(702, 326));
-
-        jPanel1.setLayout(new java.awt.GridLayout(2, 1));
-
-        jPanel7.setPreferredSize(new java.awt.Dimension(700, 250));
+        setPreferredSize(new java.awt.Dimension(703, 371));
 
         jLabel3.setFont(new java.awt.Font("Lucida Grande", 0, 24)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("Borrowed Items");
 
         jPanel2.setPreferredSize(new java.awt.Dimension(750, 173));
-        jPanel2.setLayout(new java.awt.GridLayout(1, 0));
+        jPanel2.setLayout(new java.awt.GridLayout(2, 0));
 
         jPanel5.setPreferredSize(new java.awt.Dimension(150, 150));
         jPanel5.setLayout(new java.awt.BorderLayout());
@@ -169,105 +156,65 @@ public class ReturnPanel extends javax.swing.JPanel {
 
         jPanel2.add(jPanel19);
 
+        jPanel15.setPreferredSize(new java.awt.Dimension(150, 150));
+        jPanel15.setLayout(new java.awt.BorderLayout());
+
+        jLabel18.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel18.setText("Returned");
+        jPanel15.add(jLabel18, java.awt.BorderLayout.PAGE_END);
+
+        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/fendi2.jpg"))); // NOI18N
+        jPanel15.add(jLabel12, java.awt.BorderLayout.CENTER);
+
+        jPanel2.add(jPanel15);
+
+        jPanel11.setPreferredSize(new java.awt.Dimension(150, 150));
+        jPanel11.setLayout(new java.awt.BorderLayout());
+
+        jLabel14.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel14.setText("Returned");
+        jPanel11.add(jLabel14, java.awt.BorderLayout.PAGE_END);
+
+        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/celine1.jpg"))); // NOI18N
+        jPanel11.add(jLabel7, java.awt.BorderLayout.CENTER);
+
+        jPanel2.add(jPanel11);
+
+        jPanel12.setPreferredSize(new java.awt.Dimension(150, 150));
+        jPanel12.setLayout(new java.awt.BorderLayout());
+
+        jLabel19.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel19.setText("Returned");
+        jPanel12.add(jLabel19, java.awt.BorderLayout.PAGE_END);
+
+        jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/gucci1.jpeg"))); // NOI18N
+        jPanel12.add(jLabel15, java.awt.BorderLayout.CENTER);
+
+        jPanel2.add(jPanel12);
+
         jScrollPane2.setViewportView(jPanel2);
 
-        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
-        jPanel7.setLayout(jPanel7Layout);
-        jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 700, javax.swing.GroupLayout.PREFERRED_SIZE)
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 729, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 700, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
-        jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel7Layout.createSequentialGroup()
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
                 .addComponent(jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 332, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
-
-        jPanel1.add(jPanel7);
-
-        jPanel13.setPreferredSize(new java.awt.Dimension(700, 250));
-        jPanel13.setLayout(new java.awt.BorderLayout());
-
-        jLabel5.setFont(new java.awt.Font("Lucida Grande", 0, 24)); // NOI18N
-        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setText("Returned Items");
-        jPanel13.add(jLabel5, java.awt.BorderLayout.PAGE_START);
-
-        jPanel8.setLayout(new java.awt.GridLayout(1, 0));
-
-        jPanel10.setPreferredSize(new java.awt.Dimension(150, 150));
-        jPanel10.setLayout(new java.awt.BorderLayout());
-
-        jLabel13.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel13.setText("Returned");
-        jPanel10.add(jLabel13, java.awt.BorderLayout.PAGE_END);
-
-        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/celine1.jpg"))); // NOI18N
-        jPanel10.add(jLabel6, java.awt.BorderLayout.CENTER);
-
-        jPanel8.add(jPanel10);
-
-        jPanel9.setPreferredSize(new java.awt.Dimension(150, 150));
-        jPanel9.setLayout(new java.awt.BorderLayout());
-
-        jLabel16.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel16.setText("Returned");
-        jPanel9.add(jLabel16, java.awt.BorderLayout.PAGE_END);
-
-        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/gucci1.jpeg"))); // NOI18N
-        jPanel9.add(jLabel4, java.awt.BorderLayout.CENTER);
-
-        jPanel8.add(jPanel9);
-
-        jPanel14.setPreferredSize(new java.awt.Dimension(150, 150));
-        jPanel14.setLayout(new java.awt.BorderLayout());
-
-        jLabel17.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel17.setText("Returned");
-        jPanel14.add(jLabel17, java.awt.BorderLayout.PAGE_END);
-
-        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project5/Images/fendi2.jpg"))); // NOI18N
-        jPanel14.add(jLabel8, java.awt.BorderLayout.CENTER);
-
-        jPanel8.add(jPanel14);
-
-        jScrollPane4.setViewportView(jPanel8);
-
-        jPanel13.add(jScrollPane4, java.awt.BorderLayout.CENTER);
-
-        jPanel1.add(jPanel13);
-
-        javax.swing.GroupLayout MainPanelLayout = new javax.swing.GroupLayout(MainPanel);
-        MainPanel.setLayout(MainPanelLayout);
-        MainPanelLayout.setHorizontalGroup(
-            MainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 729, Short.MAX_VALUE)
-            .addGroup(MainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, MainPanelLayout.createSequentialGroup()
-                    .addContainerGap(14, Short.MAX_VALUE)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(15, Short.MAX_VALUE)))
-        );
-        MainPanelLayout.setVerticalGroup(
-            MainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 388, Short.MAX_VALUE)
-            .addGroup(MainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(MainPanelLayout.createSequentialGroup()
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 371, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 17, Short.MAX_VALUE)))
-        );
-
-        add(MainPanel, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
@@ -336,36 +283,29 @@ public class ReturnPanel extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel MainPanel;
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel13;
-    private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel18;
     private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane4;
     // End of variables declaration//GEN-END:variables
 }
