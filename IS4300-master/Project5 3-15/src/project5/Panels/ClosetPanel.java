@@ -50,6 +50,7 @@ public class ClosetPanel extends javax.swing.JPanel {
         AddCategory = new javax.swing.JButton();
 
         setMinimumSize(new java.awt.Dimension(711, 388));
+        setPreferredSize(new java.awt.Dimension(703, 371));
         setLayout(new java.awt.BorderLayout());
 
         SearchPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());

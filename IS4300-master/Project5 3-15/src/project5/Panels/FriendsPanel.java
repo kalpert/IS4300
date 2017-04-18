@@ -80,7 +80,7 @@ public class FriendsPanel extends javax.swing.JPanel {
         jButton1 = new javax.swing.JButton();
 
         setMinimumSize(new java.awt.Dimension(703, 371));
-        setPreferredSize(new java.awt.Dimension(703, 405));
+        setPreferredSize(new java.awt.Dimension(703, 371));
         setLayout(new java.awt.BorderLayout());
 
         MainPanel.setMaximumSize(new java.awt.Dimension(702, 326));
