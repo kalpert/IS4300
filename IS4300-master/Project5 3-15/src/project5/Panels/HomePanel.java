@@ -553,6 +553,7 @@ public class HomePanel extends javax.swing.JPanel {
         HomePanel.setVisible(false);
         searchPanel.setVisible(true);
         searchPanel.setResults(jTextField1.getText());
+        searchPanel.initTable();
        
                
 //        SearchPanel search = new SearchPanel();

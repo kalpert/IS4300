@@ -8,6 +8,8 @@ package project5.Panels;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Image;
+import java.io.IOException;
+import java.net.URI;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import project5.utilities.TextPrompt;
@@ -15,6 +17,18 @@ import project5.Panels.HomePanel;
 import project5.utilities.Item;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import org.apache.commons.io.IOUtils;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.ResponseHandler;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.utils.URIBuilder;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.json.JSONArray;
+import org.json.JSONObject;
 /**
  *
  * @author rachelrudolph
@@ -33,7 +47,6 @@ public class SearchPanel extends javax.swing.JPanel {
         //resultsText = HomePanel.getSearch();
         
         initComponents();
-        initTable();
         // search.setVisible(true);
         this.tp7 = new TextPrompt( "I'm Looking To Borrow...", jTextField1);
         this.tp7.setShow(TextPrompt.Show.FOCUS_LOST);
@@ -43,17 +56,44 @@ public class SearchPanel extends javax.swing.JPanel {
             
             
     public void setResults(String text){
+        this.resultsText = text;
         this.ResultsText.setText(text);
     }
     
     public final void initTable(){
+       table.setRowCount(0);
        String header[] = new String[] {"Description", "Lender", "Image"};
        
        table.setColumnIdentifiers(header);
-       
-       table.addRow(new Object[] {"NameTest", "DescrTest", "LenderTest", "ImageTest"});
+              
+       try {
+        URI uri = new URIBuilder()
+         .setScheme("http")
+         .setHost("kalpert.pythonanywhere.com")
+         .setPath("/api/v1-0/items")
+         .setParameter("search", this.resultsText)
+         .build();
+        System.out.println(uri);
+        CloseableHttpClient client = HttpClients.createDefault();
+        HttpGet httpget = new HttpGet(uri);
+        CloseableHttpResponse response = client.execute(httpget);
+        String json = IOUtils.toString(response.getEntity().getContent());
+        System.out.println(json);
+        JSONObject obj = new JSONObject(json);
+        JSONArray arr = obj.getJSONArray("items");
+        for (int i=0; i<arr.length(); i++) {
+            JSONObject row = arr.getJSONObject(i);
+            String desc = row.getString("description");
+            String imageUri = row.getString("image_uri");
+            String lender = row.getString("lender");
+            table.addRow(new Object[] {desc, lender, imageUri});
+        }
+        
+       } catch (Exception e) {
+           throw new RuntimeException("I don't give a fuck");
+       }
     }
-    
+        
     
 
     ImageIcon testIcon = new javax.swing.ImageIcon(getClass().getResource("/project5/Images/008-sunglasses.png"));
@@ -177,8 +217,9 @@ public class SearchPanel extends javax.swing.JPanel {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
           returnPanel.setVisible(false);
+          resultsText = jTextField1.getText();
           ResultsText.setText(jTextField1.getText());
-          
+          initTable();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
